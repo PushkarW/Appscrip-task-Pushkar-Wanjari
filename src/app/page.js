@@ -1,6 +1,6 @@
 // "use client";
 import React from "react";
-import Styles from "./products.module.css";
+import Styles from "@/app/products/products.module.css";
 import Card from "@/components/card/card";
 import ProductsGrid from "@/components/productsGrid/productsGrid";
 // import Filter from "@/components/filter/filter";

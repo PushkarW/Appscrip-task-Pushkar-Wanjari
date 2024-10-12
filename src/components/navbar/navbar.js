@@ -45,22 +45,22 @@ const navbar = ({ toggleSearch }) => {
       </div>
       <ul className={Styles.container}>
         <li>
-          <Link href="/products" className={Styles.linkRemoveUL}>
+          <Link href="/" className={Styles.linkRemoveUL}>
             Home
           </Link>
         </li>
         <li>
-          <Link href="/products" className={Styles.linkRemoveUL}>
+          <Link href="/" className={Styles.linkRemoveUL}>
             Products
           </Link>
         </li>
         <li>
-          <Link href="/products" className={Styles.linkRemoveUL}>
+          <Link href="/" className={Styles.linkRemoveUL}>
             About
           </Link>
         </li>
         <li>
-          <Link href="/products" className={Styles.linkRemoveUL}>
+          <Link href="/" className={Styles.linkRemoveUL}>
             Checkout
           </Link>
         </li>

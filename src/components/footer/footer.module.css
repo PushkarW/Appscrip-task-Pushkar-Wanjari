@@ -1,0 +1,119 @@
+.container {
+  margin-top: 3rem;
+  background-color: black;
+  color: grey;
+  padding: 3rem 4rem;
+}
+
+.container h4 {
+  text-transform: uppercase;
+  color: white;
+  padding: 2rem 0;
+}
+
+.containerTop,
+.containerDown {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  border-bottom: solid gray 0.5px;
+}
+
+.boxOne {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+}
+
+.boxOne div {
+  padding: 1rem 0;
+}
+
+.boxOne input ::placeholder {
+  margin-left: 2rem;
+}
+
+.boxOne input {
+  height: 2rem;
+  width: 15rem;
+  border-radius: 0.25rem;
+}
+
+.boxOne button {
+  background-color: black;
+  color: gray;
+  text-transform: uppercase;
+  border: solid gray 0.5px;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 0.25rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.boxTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.containerDown li {
+  list-style: none;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.circleSocial {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  border: solid white 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+  padding: 1rem;
+  align-content: center;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.icons {
+  width: 1.45rem;
+  height: 1.45rem;
+  color: white;
+}
+
+.rectangle {
+  width: 3rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  /* margin-right: 1.5rem; */
+  border: solid white 0.5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.rectangle:nth-child(6) {
+  background-color: rgba(90, 49, 244, 1);
+}
+
+.rectangle:nth-child(4) {
+  background: rgba(0, 111, 207, 1);
+}
+
+.cardFlex {
+  display: flex;
+  gap: 1.5rem;
+}

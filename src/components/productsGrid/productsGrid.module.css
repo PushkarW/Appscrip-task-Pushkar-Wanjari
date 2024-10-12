@@ -1,0 +1,101 @@
+.cardGrid {
+  display: flex;
+  align-items: left;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.filterBar {
+  width: 100vw;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: solid gray 0.5px;
+}
+
+.itemCount {
+  flex-grow: 1;
+  text-transform: uppercase;
+}
+
+.filterToggle {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.filterBtn {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+.searchBox {
+  /* width: 30rem; */
+  margin: 1rem;
+}
+.searchBox input {
+  width: 30rem;
+  height: 1rem;
+  padding: 1rem;
+}
+
+.sortDropdown {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.sortDropdown select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.filterCol {
+  grid-column: 1;
+  padding: 1rem;
+  padding: 2rem;
+  margin-left: 0;
+}
+
+.productGrid {
+  grid-column: 2 / span 3;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  /* width: 75%; */
+}
+
+@media (max-width: 1200px) {
+  .cardGrid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on larger screens */
+  }
+  .filterCol {
+    display: none; /* Hide filter on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .cardGrid {
+    grid-template-columns: 1fr; /* 1 column on smaller screens */
+  }
+  .productGrid {
+    grid-column: 1; /* Products span the full width */
+  }
+}

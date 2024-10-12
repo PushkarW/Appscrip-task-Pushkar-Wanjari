@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  border-bottom: solid gray 0.5px;
+}
+
+.container li {
+  margin-left: 3rem;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.linkRemoveUL {
+  text-decoration: none;
+}
+
+.logoHead {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: large;
+}
+
+.containerTop {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  justify-content: space-around;
+}
+
+.containerTop li {
+  flex: 1;
+  text-align: center;
+}
+
+.iconFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconFlex li {
+  padding: 1rem;
+}
